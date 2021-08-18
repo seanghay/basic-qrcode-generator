@@ -1,0 +1,55 @@
+body, html {
+  font-family: 'DM Sans', sans-serif;
+  background: #333;
+  color: white;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea {
+  margin-top: 2em;
+  font-family: inherit;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, .4);
+  outline: none;
+  resize: none;
+  padding: 8px 10px;
+  border-radius: 0;
+  font-size: 1.1em;
+  background: rgb(39, 39, 39);
+  border-radius: .5em;
+}
+
+canvas {
+  background-color: white;
+  border-radius: .5em;
+  margin-top: 20px;
+}
+
+.app-title {
+  color:rgba(255, 255, 255, .8);
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  margin-top: 1em;
+}
+
+.app-subtitle { 
+  color:rgba(255, 255, 255, .6);
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  margin-top: 8px;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
