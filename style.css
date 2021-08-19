@@ -28,6 +28,12 @@ canvas {
   background-color: white;
   border-radius: .5em;
   margin-top: 20px;
+  cursor: pointer;
+  transition: .1s ease;
+}
+
+canvas.dark {
+  filter: invert(.84);
 }
 
 .app-title {
@@ -44,6 +50,7 @@ canvas {
   padding: 0;
   font-weight: normal;
   margin-top: 8px;
+
 }
 
 a {
