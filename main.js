@@ -20,10 +20,10 @@ function onValueChange() {
    }, onQRCodeComplete);
 }
 
-qrcodeValueInput.addEventListener('input', debounce(onValueChange, 100));
+qrcodeValueInput.addEventListener('input', debounce(onValueChange, 50));
 
+let timeout;
 function debounce (fn, wait = 1) {
-  let timeout
   return function (...args) {
     clearTimeout(timeout)
     timeout = setTimeout(() => fn.call(this, ...args), wait)
